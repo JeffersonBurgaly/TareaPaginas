@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    height:100vh;
+    width:100%;
+   
+    
+    padding-left:5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position:relative;
+    overflow: scroll;
+}
+.navbar{
+    height:15vh;
+    width:100%;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    
+    
+}
+.logo{
+    height:140px;
+    width:140px;
+    cursor:pointer;
+}
+nav{
+    padding-left: 60px; 
+    position: absolute;
+    left: 35%;
+}
+
+nav ul li{
+    /*sin puntos*/
+    list-style: none;
+    /*En linea*/
+    display: inline-block;
+    /*espacio entre etiquetas*/
+    margin: 0px 0px;
+   
+    
+}
+
+
+.content h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color:#006666;
+    margin: 20px 0 20px;
+    
+}
+.content h3{
+    margin: 20px 0 20px;
+    
+}
+
+.content p{
+    /*tamano de la letra*/
+    font-size: 20px;
+    color: #6a7199;
+    /*grosor de la letras*/
+    font-weight: 400;
+    margin: 0 0 20px;
+    
+}
+
+body{
+    /*color de fondo del home*/
+    background: azure;
+    height: 100vh;
+    overflow: hidden;
+}
+.table{
+    font-size: 20px;
+    margin: 0 40px 20px;
+    
+}
+.content ol li{
+     margin-left:50px;
+}
+
+
+header {
+   /*color de la barra*/
+   background: #cc0066;
+  width: 100%;
+  /*ubicar los elementos sobre los demas*/
+  z-index: 100;
+}
+
+nav {
+    /*alinea la barra de navegacion a la izquierda de la pagina*/
+  margin-left: 400px;
+}
+
+nav ul {
+   /*forma de la vineta*/
+  list-style: none;
+  
+}
+
+nav ul li {
+    /*que la barra se vea horizontal*/
+  float: right;
+ /*tamano de la letra*/
+  font-size: 16px;
+}
+nav ul li a {
+    /*anchor*/
+  display: block;
+  padding: 10px;
+  /*color de la letra*/
+  color: #160B61;
+  /*quitar el subrayado*/
+  text-decoration: none;
+}
+nav ul li:hover {
+    /*color al pasar sobre la opcion*/
+    background: #9999ff;
+}
+.content ul li{
+    /*para que no tenga los puntos*/
+    list-style: none; 
+    margin-top:5px;
+
+}
+

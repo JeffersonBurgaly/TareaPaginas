@@ -1,0 +1,56 @@
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="css/login.css"/>
+    </head>
+    <body>
+        <!-- Este div tiene el contenido -->
+        <div class="container">
+            <div class="navbar">
+                <!-- este div tiene nuestro NAVBAR/barra de navegacion -->
+
+                <!-- logo -->
+                <img class="logo" src= "images/logobg.png" alt="logo de la pagina"/>
+
+                <!-- navigation/navegacion agrupa los lementos de navegacion -->
+                <header>
+                    <nav>
+                        <ul>
+                            <!-- botones -->
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="register.html">Register</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+
+            <!-- formulario -->
+            <div class="center">
+                <!-- titulo -->
+                <h1>Login</h1>
+                <!-- etiqueta form/formulario -->
+                <form method="post">
+                    <label><br><br><strong>Nombre de usuario </strong></label>
+                    <!-- engloba los espacios en los que el usuario va a escribir -->
+                    <div class="txt_field">
+                        <!-- Etiqueta input que le permite al usaurio ingresar informacion a la pagina -->
+                        <!-- puede ser de tipo text,password,botton -->
+                        <input type="text" required>
+                        <!-- etiqueta label que define lo que se va a mostrar o ingresar -->
+                        
+                    </div>
+                    <label><br><br><strong>Contraseña</strong></label>
+                    <div class="txt_field">
+                        <input type="password" required>
+                        
+                    </div>
+                    <div class="pass"><br><br><strong> ¿Olvido su contraseña?</strong><br><br></div>
+                    <input type="submit" value="Login">     
+                </form>
+            </div>
+             </body>
+</html>
