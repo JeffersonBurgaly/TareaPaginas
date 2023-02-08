@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+   
+
+  
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  
+  
+}
+
+li {
+  float: left;
+  height: 80px;
+
+	
+}
+
+li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-align: left;
+  padding: 30px;
+
+}
+
+li a:hover {
+    background-color: #ffb700;
+	color: black;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+
+
+.menu-outer{
+	background-color: white;
+	border-radius: 25px;
+}
+
+
+body{
+	background-color:  #160B61;
+}
+
+h1{
+	transform: translateY(100px);
+	color: white;
+	text-align: center;
+}
+
+
+.wrap-collabsible{
+	transform: translateY(150px) ;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+	
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.lbl-toggle {
+  
+  display: block;
+  font-weight: bold;
+  font-size: 19px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 16px;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: all 0.25s ease-out;
+  color: #00000;
+  background: #2ae4fe;
+
+}
+
+.lbl-toggle:hover {
+  color: #ffb700;
+}
+
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 100%;
+}
+
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+
+  background: #ffb700;
+  border-bottom: 1px solid #00000;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: .5rem 1rem;
+}
